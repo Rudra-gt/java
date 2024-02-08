@@ -1,0 +1,373 @@
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=1;
+        while(i<=100)
+        {
+            System.out.println(i);
+            i++;
+        }
+       
+       
+       
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=100;
+        while(i>=1)
+        {
+            System.out.println(i);
+            i--;
+        }
+       
+       
+       
+    }
+}
+
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=1;
+        while(i<=100)
+        {
+          if (i%2==0)
+          {
+            System.out.println(i);
+          }
+          i++;
+        }
+       
+       
+       
+    }
+}
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=100;
+        while(i>=1)
+        {
+          if (i%2==0)
+          {
+            System.out.println(i);
+          }
+          i--;
+        }
+       
+       
+       
+    }
+}
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=100;
+        while(i>=1)
+        {
+          if (i%2!=0)
+          {
+            System.out.println(i);
+          }
+          i--;
+        }
+       
+       
+       
+    }
+}
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=1;
+        while(i<=100)
+        {
+          if (i%2!=0)
+          {
+            System.out.println(i);
+          }
+          i++;
+        }
+       
+       
+       
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=50;
+        while(i<=500)
+        {
+         
+         
+            System.out.println(i);
+         
+          i++;
+        }
+       
+       
+       
+    }
+}
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=50;
+        while(i<=1000)
+        {
+         
+         
+            System.out.println(i);
+         
+          i++;
+        }
+       
+       
+       
+    }
+}
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+       int i=500;
+        while(i>=50)
+        {
+         
+         
+            System.out.println(i);
+         
+          i--;
+        }
+       
+       
+       
+    }
+}
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+     System.out.println("enter starting number");
+     int start = sc.nextInt();
+     System.out.println("enter ending number");
+     int end = sc.nextInt();
+    while(start<=end){
+        System.out.println(start);
+        start++;
+    }
+
+
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+     System.out.println("enter starting number");
+     int start = sc.nextInt();
+     System.out.println("enter ending number");
+     int end = sc.nextInt();
+    while(start<=end)
+    {
+
+
+        if (start%2==0)
+        {
+            System.out.println(start);
+           
+        }
+        start++;
+    }
+
+
+    }
+}
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+     System.out.println("enter starting number");
+     int start = sc.nextInt();
+     System.out.println("enter ending number");
+     int end = sc.nextInt();
+    while(start<=end)
+    {
+
+
+        if (start%2!=0)
+        {
+            System.out.println(start);
+           
+        }
+        start++;
+    }
+
+
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+     int i=1;
+     int sum=0;
+     while(i<=10)
+    {
+       
+        sum= sum +i;
+        System.out.println(sum);
+        i++;
+    }
+
+
+    }
+}
+
+
+
+
+import java.util.Scanner;
+
+
+public class Main
+{
+    public static void main(String[] args)
+    {
+      Scanner sc = new Scanner(System.in);
+     int i=1;
+     int sum=0;
+     while(i<=10)
+    {
+       
+        sum=i*2;
+        System.out.println(sum);
+        i++;
+    }
+
+
+    }
+}
+
+
+
+    import java.util.Scanner;
+
+
+    public class Main
+    {
+        public static void main(String[] args)
+        {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your number");
+        int a= sc.nextInt();
+        int i=1;
+        int sum=0;
+        while(a<=10)
+        {
+           
+            sum=a*2;
+            System.out.println(sum);
+            a++;
+        }
+
+
+        }
+    }
+
+
+
+
